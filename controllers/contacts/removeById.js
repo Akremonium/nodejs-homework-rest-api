@@ -11,7 +11,7 @@ const removeById = async (req, res) => {
   res.json({
     status: 'success',
     code: 200,
-    message: `Contact -${result.name}- deleted`
+    message: `Contact ${result.name} deleted`
   })
 }
 
